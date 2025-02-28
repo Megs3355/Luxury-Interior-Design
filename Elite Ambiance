@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Interior Design Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #D4C2A8;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #D4C2A8;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Luxury Interior Design Portfolio</header>
+    <div class="container">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="kitchen.png" alt="Luxury Kitchen">
+            <img src="livingroom.png" alt="Luxury Living Room">
+            <img src="masterbedroom.png" alt="Master Bedroom">
+            <img src="queenbedroom.png" alt="Queen Bedroom">
+            <img src="bunkroom.png" alt="Bunk Room">
+            <img src="bathroom.png" alt="Luxury Bathroom">
+            <img src="terrace.png" alt="Outdoor Terrace">
+            <img src="gym.png" alt="Luxury Gym">
+            <img src="gameroom.png" alt="Game Room">
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</body>
+</html>
